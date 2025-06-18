@@ -218,14 +218,14 @@ h1::after {
 
 h2 {
   padding-left: 6px;
-  margin: 2em auto 1.4em;
+  /* margin: 1em auto 1em; */
   font-size: 1.6em;
   line-height: 1.4;
   border-left: 6px solid var(--main-6);
 }
 
 h3 {
-  margin: 1.6em auto 1.2em;
+  margin: 0.8em auto 0.8em;
   font-size: 1.35em;
   line-height: 1.43;
 }
@@ -234,14 +234,12 @@ h3 {
 h3::before {
   display: inline-block;
   width: 6px;
-  height: 6px;
-  margin-right: 6px;
-  margin-bottom: 0.18em;
-  line-height: 1.43;
+  height: 2px;
+  margin-right: 8px;
+  margin-bottom: 0.0em;
   vertical-align: middle;
   content: '';
   background-color: var(--main-5);
-  border-radius: 50%;
 }
 
 /* 三级四级标题点击后左边的提示图标 */
@@ -254,7 +252,7 @@ h3::before {
 }
 
 h4 {
-  margin-top: 1.4em;
+  margin-top: 0.7em;
   font-size: 1.2em;
 }
 
