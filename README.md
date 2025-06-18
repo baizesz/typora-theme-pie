@@ -3,6 +3,14 @@
 
 English | [简体中文](./README_CN.md)
 
+## Changed
+
+Modifications were made on the original basis: the left, right, top and bottom gaps of the ui, li, ol and table tags were reduced, mainly targeting the proportion of A4 paper.
+
+Subject: pie-small is more compact and more suitable for A4 paper printing, such as resumes.
+
+Subject: pie is relatively compact and more suitable for online browsing.
+
 ## Why `pie`
 
 There are a lot of fillings in the `pie`, and this theme is made up of a variety of `fillings`. Here are a few inspirations, thank you in advance.

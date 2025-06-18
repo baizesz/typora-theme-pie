@@ -83,19 +83,19 @@ body {
   overflow-x: hidden;
   font-family: var(--font-normal) !important;
   line-height: 1.8rem;
-  color: var(--main-10);
+  color: var(--main-9);
   letter-spacing: 0;
   -webkit-font-smoothing: antialiased;
 }
 
 #write {
-  max-width: 860px;
-  padding: 20px 30px 160px;
+  max-width: 210mm;
+  /* padding: 20px 30px 160px; */
   margin: 0 auto;
 }
 
 #write p {
-  word-spacing: 0.05rem;
+  /* word-spacing: 0.05rem; */
   text-align: justify;
 }
 
@@ -108,12 +108,12 @@ body {
 }
 
 #write ul {
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 
 #write>ul:first-child,
 #write>ol:first-child {
-  margin-top: 30px;
+  margin-top: 16px;
 }
 
 body>*:first-child {
@@ -135,7 +135,7 @@ a {
 #write a {
   color: var(--mid-10);
   text-decoration: none;
-  border-bottom: 1px solid var(--main-6);
+  border-bottom: 1px solid var(--main-4);
   transition: border-bottom 0.2s;
 }
 
@@ -153,7 +153,7 @@ a {
 }
 
 #write a:hover {
-  border-bottom: 2px solid var(--main-6);
+  border-bottom: 1.6px solid var(--main-6);
 }
 
 h1,
@@ -298,7 +298,7 @@ hr {
   width: 100%;
   height: 1px;
   padding: 0;
-  margin: 46px auto 64px;
+  /* margin: 46px auto 64px; */
   overflow: hidden;
   background-color: var(--main-4);
   border: 0;
@@ -352,7 +352,7 @@ li p.first {
 
 ul,
 ol {
-  padding-left: 30px;
+  padding-left: 16px;
 }
 
 ul:first-child,
@@ -369,10 +369,10 @@ ol:last-child {
 blockquote {
   position: relative;
   padding: 2px 12px 2px;
-  margin: 24px 0 36px;
+  /* margin: 24px 0 36px; */
   font-size: 1em;
   font-style: normal;
-  line-height: 1.6;
+  line-height: 1.25;
   color: var(--mid-9);
   text-indent: 0;
   border: none;
@@ -396,13 +396,13 @@ blockquote a {
   font-size: 2em;
   font-weight: 700;
   line-height: 1em;
-  color: var(--main-6);
+  color: var(--main-3);
   content: '“';
 } */
 
 table {
   padding: 0;
-  margin: 36px auto;
+  margin: 16px auto;
   word-break: initial;
 }
 
@@ -418,16 +418,16 @@ thead {
 }
 
 table tr th {
-  padding: 6px 13px;
+  padding: 6px 10px;
   margin: 0;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-align: left;
   border: 1px solid #dfe2e5;
   border-bottom: 0;
 }
 
 table tr td {
-  padding: 6px 13px;
+  padding: 6px 10px;
   margin: 0;
   text-align: left;
   border: 1px solid #dfe2e5;
@@ -444,7 +444,7 @@ table tr td:last-child {
 }
 
 #write table thead th {
-  text-align: center;
+  text-align: left;
   background-color: #f2f2f2;
 }
 
@@ -514,7 +514,7 @@ tt {
 /* 流程图块 */
 #write .md-diagram-panel {
   position: relative;
-  margin: 24px auto;
+  margin: 16px auto;
 }
 
 #write .md-focus .md-diagram-panel {
@@ -625,7 +625,7 @@ tt {
 
 /* --- 图片 --- */
 .md-image {
-  margin: 24px auto;
+  margin: 16px auto;
   border-radius: 4px;
 }
 
@@ -659,8 +659,8 @@ tt {
 }
 
 .md-toc {
-  padding-bottom: 20px;
-  margin-top: 20px;
+  padding-bottom: 16px;
+  margin-top: 16px;
 }
 
 #md-notification::before {
@@ -868,6 +868,24 @@ footer {
 .cm-s-inner .CodeMirror-matchingbracket {
   color: white !important;
   text-decoration: underline;
+}
+
+#write th {
+  font-weight: normal;
+  /* 取消加粗 */
+}
+
+ul {
+  padding-left: 1em;
+  /* 整体缩进 */
+}
+
+li,
+ol {
+  margin-left: 0.3em;
+  /* 圆点与文本的间隙 */
+  text-indent: 0.0em;
+  /* 首行文本向左微调 */
 }
 
 h1 a,
